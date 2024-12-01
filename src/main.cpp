@@ -14,7 +14,7 @@ protected:
     // losuj imie
     static std::string generuj_losowe_imie()
     {
-        static const std::vector< std::string > imiona = {"Olaf", "Damian", "Magda", "Mateusz", "Natalka", "Pawe³", "Miros³awa"};
+        static const std::vector< std::string > imiona = {"Olaf", "Damian", "Magda", "Mateusz", "Natalka", "Pawel", "Miroslawa"};
         return imiona[rand() % imiona.size()];
     }
 
